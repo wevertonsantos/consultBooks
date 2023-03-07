@@ -1,11 +1,17 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+:root{
+	--cor-roxa: rgba(50, 50, 170, .8);
+	--cor-branca: #ffffff;
+}
+
+
 body{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 16px;
-	color: #fff;
-	background: rgba(50, 50, 170, .8);
+	color: var(--cor-branca);
+	;
 }
 
 /* Cabeçalho */
@@ -20,14 +26,37 @@ body{
 	height: 30vh;
 	padding: 1em 2em;
 
-	color: #ffffff;
+	background: var(--cor-roxa);
+	color: var(--cor-branca);
 }
 
 .titulo{
 	font-size: 2em;
 }
 
+/* Main */
+
 #principal{
 	height: 100vh;
-	background: #ffffff;
+	background: var(--cor-branca);
 }
+
+.principal_buttons{
+	display: flex;
+	justify-content: space-around;
+
+	padding: 2em;
+}
+
+.buttons{
+	border: none;
+	margin: 1em 0;
+	padding: .5em;
+
+	background: var(--cor-roxa);
+	color: var(--cor-branca);
+
+	border-radius: 10px;
+	cursor: pointer;
+}
+
