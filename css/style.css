@@ -1,0 +1,33 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background: rgba(50, 50, 170, .8);
+}
+
+/* Cabeçalho */
+
+#cabecalho{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+
+	height: 30vh;
+	padding: 1em 2em;
+
+	color: #ffffff;
+}
+
+.titulo{
+	font-size: 2em;
+}
+
+#principal{
+	height: 100vh;
+	background: #ffffff;
+}
