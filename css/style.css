@@ -11,7 +11,6 @@ body{
 	font-family: 'Quicksand', sans-serif;
 	font-size: 16px;
 	color: var(--cor-branca);
-	;
 }
 
 /* Cabeçalho */
@@ -47,16 +46,16 @@ body{
 
 .principal__buttons{
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 
-	padding: 2em;
+	margin: 1em 0;
 }
 
 /* Botões */
 
 .buttons{
 	border: none;
-	margin: 1em 0;
+	margin: 1em 3.5em;
 	padding: .5em;
 
 	background: var(--cor-roxa);
@@ -75,7 +74,6 @@ body{
 .principal__livros{
 	display: flex;
 	justify-content: center;
-
 }
 
 .wrap{
@@ -98,6 +96,7 @@ body{
 .titulo__livro{
 	display: flex;
 	justify-content: center;
+	padding: 0 2em;
 }
 
 .titulo__livro h2{
@@ -106,9 +105,15 @@ body{
 	width: 240px;
 }
 
+/* Tag */
+
+.tags{
+	display: none;
+}
+
 /* Responsivo */
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 960px){
 
 	/* Header */
 
@@ -121,6 +126,11 @@ body{
 	}
 
 	/* Botões */
+
+	.principal__buttons{
+		justify-content: space-around;
+		padding: 0 10%;
+	}
 
 	.buttons{
 		padding: 15px;
