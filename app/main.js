@@ -1,9 +1,9 @@
 const livros = [];
 const endpointAPI = 'https://guilhermeonrails.github.io/casadocodigo/livros.json';
-getBuscarLivrosAPI()
+getBuscarLivrosAPI();
 
-async function getBuscarLivrosAPI (){
-	await fetch(endpointAPI)
-	.then(r => r.json())
-	.then(response => console.log(response))
+async function getBuscarLivrosAPI(){
+	const res = await fetch(endpointAPI)
+	const livros = await res.json()
+	console.log(livros)
 }
