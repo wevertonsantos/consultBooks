@@ -17,7 +17,8 @@ function exibirLivros(listaLivros){
 		`
 			<div class="livro">
 					<img class="img__livro"
-					src="${livro.imagem}">
+					src="${livro.imagem}"
+					alt="${livro.alt}">
 					<div class="titulo__livro">
 						<h2>${livro.titulo}</h2>
 					</div>
