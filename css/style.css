@@ -96,6 +96,7 @@ body{
 
 .titulo__livro{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	padding: 0 2em;
 }
@@ -104,6 +105,10 @@ body{
 	text-align: center;
 	color: rgba(50, 50, 170);
 	width: 240px;
+}
+
+.titulo__livro p{
+	color: #000;
 }
 
 /* Tag */
