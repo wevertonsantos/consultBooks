@@ -11,6 +11,9 @@ function exibirLivros(listaLivros){
 					alt="${livro.alt}">
 					<div class="titulo__livro">
 						<h2>${livro.titulo}</h2>
+						<div class="preco">
+							<p>R$ ${livro.preco}</p>
+						</div>
 					</div>
 					<div class="tags">
 						<span class="tag">${livro.categoria}</span>
