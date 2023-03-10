@@ -1,4 +1,7 @@
+const elementoInserirLivros = document.querySelector('#livros')
+
 function exibirLivros(listaLivros){
+	elementoInserirLivros.innerHTML = '';
 	listaLivros.forEach(livro => {
 		elementoInserirLivros.innerHTML +=
 		`
@@ -13,6 +16,6 @@ function exibirLivros(listaLivros){
 						<span class="tag">${livro.categoria}</span>
 					</div>
 			</div>
-		`
+		`;
 	})
 }

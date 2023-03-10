@@ -10,5 +10,5 @@ function filtrarLivros(){
 
 	const livrosFiltrados = livros.filter(livro =>
 			livro.categoria == categoria)
-			console.table(livrosFiltrados)
+			exibirLivros(livrosFiltrados)
 }
