@@ -1,4 +1,4 @@
-<h1>Tratando API e construção de site de site com filtração de categoria e ordenação de preço</h1>
+<h1>Tratando API e construindo de site de site com filtração de categoria e ordenação de preço</h1>
 
 <h2> <ul><li>O que foi usado no desenvolvimento do site?</li></ul> </h2>
 
