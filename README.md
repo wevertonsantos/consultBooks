@@ -2,14 +2,14 @@
 
 <h2> <ul><li>O que foi usado no desenvolvimento do site?</li></ul> </h2>
 
-<p> Techs: </p>
+<p> <ul><li>Techs</li></ul></p>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>JavaScript</li>
 </ul>
 
-<p> Métodos utilizados para, mapear, filtrar e ordernar. </p>
+<p> <ul><li>Métodos utilizados para, mapear, filtrar e ordernar.</li></ul> </p>
 <ul>
   <li>.map() = Através de passar por um array o map devolve um novo array com cada elemento individual</li>
   <li>.filter() = Remove tudo que não faz parte daquele filtro e retorna apenas o filtro aplicado</li>
