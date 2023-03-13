@@ -1,6 +1,6 @@
 <h1> <ul><li>Tratando API e construção de site com filtração de categorias</li></ul> </h1>
 
-<h2> O que foi usado no desenvolvimento do site? </h2>
+<h2> <ul><li>Tratando API e construção de site com filtração de categorias</li></ul> </h2>
 
 <p> Techs: </p>
 <ul>
@@ -17,5 +17,5 @@
   <li>.sort() = Ordena os elementos do próprio array e retorna em forma de string.</li>
 </ul>
 
-<h1>Site para dar uma olhada no projeto:</h1>
+<h1> <ul><li>Site para dar uma olhada no projeto:</li></ul> </h1>
 https://wevertonsantos.github.io/consultBooks/
