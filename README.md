@@ -18,5 +18,5 @@
   <li>.sort() = Ordena os elementos do próprio array e retorna em forma de string.</li>
 </ul>
 
-<h1> <ul><li>Site para dar uma olhada no projeto:</li></ul> </h1>
+<h2> <ul><li>Site para dar uma olhada no projeto:</li></ul> </h2>
 https://wevertonsantos.github.io/consultBooks/
