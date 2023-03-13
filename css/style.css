@@ -164,4 +164,14 @@ body{
 		width: 200px;
 	}
 
+	.titulo__js{
+		width: 50%;
+		position: relative;
+		left: 25%;
+		color: rgba(200, 100, 50, 1.0);
+		border: .5px solid;
+		border-radius: 90px;
+	}
+
+
 }
