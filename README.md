@@ -10,7 +10,7 @@
   <li>JavaScript</li>
 </ul>
 
-<p> <ul><li>Métodos utilizados para, mapear, filtrar e ordernar.</li></ul> </p>
+<p> Métodos utilizados para, mapear, filtrar e ordernar: </p>
 <ul>
   <li>.map() = Através de passar por um array o map devolve um novo array com cada elemento individual</li>
   <li>.filter() = Remove tudo que não faz parte daquele filtro e retorna apenas o filtro aplicado</li>
