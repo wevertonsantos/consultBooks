@@ -6,7 +6,7 @@ function exibirLivros(listaLivros){
 		elementoInserirLivros.innerHTML +=
 		`
 			<div class="livro">
-						<h2 class="titulo__js"> Livro ${livro.categoria}<h2>
+					<h2 class="titulo__js"> Livro de ${livro.categoria}<h2>
 					<img class="img__livro"
 					src="${livro.imagem}"
 					alt="${livro.alt}">
